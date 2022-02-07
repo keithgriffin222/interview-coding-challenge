@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <!-- Cards -->
+    <div class = "container" id = "cards">
+        <div class = "col">
+            <div class = "row">
+                <div class="card mx-3" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/chair-g25b72be1e_1920.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Chair</h5>
+                    <h6>$60</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-primary add-cart cart1">Add to Cart</button>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="card mx-3" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/gloves-g4c8c6cee3_1920.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Gloves</h5>
+                    <h6>$20</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-primary add-cart cart2">Add to Cart</button>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="card mx-3" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/phone-g0b6145bbc_1920.jpg" alt="Card image cap" id = "phone">
+                    <div class="card-body">
+                    <h5 class="card-title">Phone</h5>
+                    <h6>$100</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-primary add-cart cart3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Shopping Cart Table -->
+    <div class = "col">
+        <div class = "row my-5">
+        <h5>Order Details</h5>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Chair</th>
+                <td>1</td>
+                <td>$60.00</td>
+                <td>$60.00</td>
+                <td>remove</td>
+            </tr>
+            <tr>
+                <th scope="row">Gloves</th>
+                <td>1</td>
+                <td>$20.00</td>
+                <td>$20.00</td>
+                <td>remove</td>
+            </tr>
+            <tr>
+                <th scope="row">Phone</th>
+                <td>1</td>
+                <td>$100.00</td>
+                <td>$100.00</td>
+                <td>remove</td>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td>Total:</td>
+                <td>$180.00</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then vanilla Java Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
