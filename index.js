@@ -140,6 +140,8 @@ function displayCart() {
     }
 }
 
-//Call displayCart function whenever the page loads.
+//Call onLoadCartNumbers function.
 onLoadCartNumbers();
+
+//Call displayCart function whenever the page loads.
 displayCart();
